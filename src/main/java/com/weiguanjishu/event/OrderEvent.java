@@ -1,8 +1,13 @@
 package com.weiguanjishu.event;
 
+
+import com.weiguanjishu.domain.model.OrderModel;
+
 /**
- * @Author onlyone
- * @create 2022/6/29
+ * spring 事件
  */
-public class OrderEvent {
+public class OrderEvent extends AbstractGenericEvent<OrderModel> {
+    public OrderEvent(OrderModel source) {
+        super(source);
+    }
 }

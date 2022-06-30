@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
  * 订单
  */
 @Data
-public class Order {
+public class OrderModel {
 
     private Long orderId;
 

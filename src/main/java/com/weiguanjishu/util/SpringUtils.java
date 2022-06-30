@@ -1,4 +1,4 @@
-package org.unitedata.scplatform.common.utils;
+package com.weiguanjishu.util;
 
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;
@@ -11,6 +11,7 @@ import java.util.Objects;
 /**
  * spring 工具类
  */
+
 @Component
 public final class SpringUtils implements ApplicationContextAware {
 
