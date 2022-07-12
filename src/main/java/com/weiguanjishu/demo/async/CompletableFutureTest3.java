@@ -15,13 +15,13 @@ public class CompletableFutureTest3 {
     public static void main(String[] args) {
         CompletableFuture<Integer> resultFuture = CompletableFuture.supplyAsync(() -> {
             //模拟耗时1秒获取A书店价格
-            timeConsuming(1000);
+            timeConsuming(4000);
             //返回价格
             return 30;
         }).thenCombine(
                 CompletableFuture.supplyAsync(() -> {
                     //模拟耗时1秒获取B书店价格
-                    timeConsuming(1000);
+                    timeConsuming(4000);
                     //返回价格
                     return 50;
                 }), (a, b) -> {
