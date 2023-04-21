@@ -2,6 +2,7 @@ package com.weiguanjishu.demo.locksupport;
 
 import lombok.SneakyThrows;
 
+import javax.validation.constraints.Size;
 import java.util.concurrent.locks.LockSupport;
 
 /**

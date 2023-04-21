@@ -9,6 +9,7 @@ public class ThreadT3 {
 
     private static Long value = 1L;
 
+
     /**
      * 线程中断原则
      */

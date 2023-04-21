@@ -33,7 +33,10 @@ public class OrderController {
             SpringUtils.getApplicationContext().publishEvent(new OrderEvent(orderModel));
             System.out.println("[生产端]" + "线程：" + Thread.currentThread().getName() + "，发布事件 " + i);
         }
+
         return "success";
 
     }
+
+
 }

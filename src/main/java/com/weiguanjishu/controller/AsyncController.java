@@ -29,4 +29,12 @@ public class AsyncController {
         return "success";
 
     }
+
+    // 校验身份证
+
+
+
+
+
+
 }
