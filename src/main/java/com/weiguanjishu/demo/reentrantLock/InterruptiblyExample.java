@@ -35,6 +35,7 @@ public class InterruptiblyExample {
 
             System.out.println("线程 2: 等待获取锁....");
             // 获取锁
+            
             try {
                 lock.lockInterruptibly();
                 System.out.println("线程 2： 获取锁成功....");
